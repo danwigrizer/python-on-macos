@@ -20,10 +20,10 @@ Built with `pyenv`, `virtualenv`, `poetry`, `jupyter`, `pipx`, and `conda` (all 
 ## Combining them all
 
 1. [pyenv global](/usage/pyenv-global.html)
-2. [Environments](/usage/environments.html) – both `conda` and `virtualenvs`
-3. Kernels
-4. Homebrew's Python
+2. [Environments](/usage/environments.html) – both `conda` and Python `virtualenvs`
+3. [Jupyter Kernels](/usage/kernels.html) – `ipykernel`
+4. [Homebrew's Python](/usage/brew-python.html)
 
 ---
 
-You should also check out my reference guide for `python`, `javascript`, `node`, and `ruby` developers setting up a new machine with macOS Catalina: [lucasrla.github.io/macos-setup/](https://lucasrla.github.io/macos-setup/).
+You should also check out my guide for developers setting up a new machine with macOS Catalina: [lucasrla.github.io/macos-setup/](https://lucasrla.github.io/macos-setup/).
