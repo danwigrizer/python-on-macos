@@ -8,7 +8,7 @@ nav_order: 1
 
 ## Set the latest Python 3, miniconda, and Python 2.7.18 as our global
 
-You might recall that [during our miniconda setup we have experienced the following](/conda/miniconda.html#install-miniconda-via-pyenv):
+You might recall that [during our miniconda setup we have experienced the following](/python-on-macos/conda/miniconda.html#install-miniconda-via-pyenv):
 
 ```sh
 conda list

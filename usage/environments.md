@@ -62,7 +62,7 @@ Unlike the manually-managed virtual envs, `pyenv-virtualenv` consolidates all ou
 
 > I name my environments `venv-<PROJECT_NAME>`. That makes them easy to organize and helps maintain compatibility with older `.gitignore` files that generally assume `venv` is the name of your virtual environment.
 
-Because we have installed and configured `pyenv-virtualenv` ([instructions are here](/pyenv/pyenv-virtualenv.html)), we can set a virtual environment using the `pyenv local` command and have `pyenv-virtualenv` auto-activate the right environments as you switch to different directories:
+Because we have installed and configured `pyenv-virtualenv` ([instructions are here](/python-on-macos/pyenv/pyenv-virtualenv.html)), we can set a virtual environment using the `pyenv local` command and have `pyenv-virtualenv` auto-activate the right environments as you switch to different directories:
 
 ```sh
 cd test-project

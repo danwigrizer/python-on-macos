@@ -174,7 +174,7 @@ pyenv which python2
   /usr/bin/python2
 ```
 
-Note: we will solve this "issue" later on via `pyenv global`. [Read it here](/usage/pyenv-global.html).
+Note: we will solve this "issue" later on via `pyenv global`. [Read it here](/python-on-macos/usage/pyenv-global.html).
 
 ## Delete a Python version
 

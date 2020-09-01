@@ -26,7 +26,7 @@ For more on pipx, read [the docs](https://pipxproject.github.io/pipx/comparisons
 
 ## Install pipx from pip
 
-<div class="warning-box">Before installing pipx you must install and configure pyenv first. <a href="pyenv/pyenv.html">Read the setup instructions here</a>.</div>
+<div class="warning-box">Before installing pipx you must install and configure pyenv first. <a href="/python-on-macos/pyenv/pyenv.html">Read the setup instructions here</a>.</div>
 
 `pipx` is available for installation through `brew`, but because we are avoiding Homebrew's `python`, let's use `pip` to install `pipx` instead.
 

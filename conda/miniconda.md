@@ -31,7 +31,7 @@ There are different flavors of Conda. The main ones are anaconda and miniconda. 
 
 ## Install miniconda via pyenv
 
-<div class="warning-box">Before installing miniconda you must install and configure pyenv first. <a href="pyenv/pyenv.html">Read the setup instructions here</a>.</div>
+<div class="warning-box">Before installing miniconda you must install and configure pyenv first. <a href="/python-on-macos/pyenv/pyenv.html">Read the setup instructions here</a>.</div>
 
 pyenv makes installing miniconda nice and easy. 
 

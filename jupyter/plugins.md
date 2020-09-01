@@ -15,7 +15,7 @@ nav_order: 3
 
 ---
 
-<div class="warning-box">Before installing the plugins listed below, you should first install the <code class="language-plaintext highlighter-rouge">jupyterlab-manager labextension</code>. If you haven't installed it yet, <a href="jupyter-labextensions.html">read the setup instructions here</a>.</div>
+<div class="warning-box">Before installing the plugins listed below, you should first install the <code class="language-plaintext highlighter-rouge">jupyterlab-manager labextension</code>. If you haven't installed it yet, <a href="labextensions.html">read the setup instructions here</a>.</div>
 
 ## Overview of Python plotting libraries
 

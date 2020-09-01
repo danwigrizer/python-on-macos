@@ -19,7 +19,7 @@ Why `poetry` instead of the _official-ish_ `pipenv`? As of early 2020, it seems 
 
 ## Install poetry via pipx
 
-<div class="warning-box">Before installing poetry, you must install and configure pipx first. <a href="pipx.html">Read the setup instructions here</a>.</div>
+<div class="warning-box">Before installing poetry, you must install and configure pipx first. <a href="/python-on-macos/pipx.html">Read the setup instructions here</a>.</div>
 
 Install `poetry` using `pipx`:
 

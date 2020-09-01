@@ -21,7 +21,7 @@ From the [official website](https://jupyter.org):
 
 ## Install jupyterlab via pipx
 
-<div class="warning-box">Before installing JupyterLab, you must install and configure pipx first. <a href="/pipx.html">Read the setup instructions here</a>.</div>
+<div class="warning-box">Before installing JupyterLab, you must install and configure pipx first. <a href="/python-on-macos/pipx.html">Read the setup instructions here</a>.</div>
 
 We want our `jupyter` installation to be unique and globally acessible. `pipx` is the perfect tool for that.
 
