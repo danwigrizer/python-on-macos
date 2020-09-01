@@ -1,0 +1,15 @@
+# mine
+_/
+TODOs.md
+crypto.md
+
+# bundler
+vendor/
+vendor.noindex/
+bin/
+
+# jekyll
+_site/
+
+# chruby
+.ruby-version

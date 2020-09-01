@@ -1,0 +1,14 @@
+title: Python on macOS
+description: The ultimate Python setup for macOS Catalina.
+
+author:
+  name: lucasrla
+  github: lucasrla
+
+remote_theme: pmarsceill/just-the-docs
+color_scheme: "dark"
+search_enabled: true
+
+exclude: ["README.md", "TODOs.md", "vendor.noindex/", "bin/"]
+# https://help.github.com/articles/migrating-your-pages-site-from-maruku
+# markdown: GFM
