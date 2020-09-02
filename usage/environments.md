@@ -91,14 +91,17 @@ cat .python-version
 If your project have dependencies that fit conda packages better than plain Pip packages, then use a conda environment. Here are the steps for creating and managing conda environments:
 
 ```sh
-# 1. Start with conda create (in this case installing libvips from conda-forge)
-conda --create vips-conda-env --channel conda-forge libvips
+# 1. Create a virtualenv using the miniconda version installed with pyenv
+pyenv virtualenv miniconda3-4.7.12 my-conda-env
 
 # 2. Then use pyenv local to set a pyenv virtualenv locally
-cd CONDA_PROJECT_DIR && pyenv local vips-conda-env
+cd CONDA_PROJECT_DIR && pyenv local my-conda-env
 
-# 3. If/when done with the env, delete it with pyenv virtualenv-delete
-pyenv virtualenv-delete vips-conda-env
+# 3. Install whatever you want with conda
+conda install libvips
+
+# 4. If/when done with the env, delete it with pyenv virtualenv-delete
+pyenv virtualenv-delete my-conda-env
 ```
 
 ## Other useful commands

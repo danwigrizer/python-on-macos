@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Index
 nav_order: 1
 ---
 
@@ -26,4 +26,4 @@ Built with `pyenv`, `virtualenv`, `poetry`, `jupyter`, `pipx`, and `conda` (all 
 
 ---
 
-You should also check out my guide for developers setting up a new machine with macOS Catalina: [lucasrla.github.io/macos-setup/](https://lucasrla.github.io/macos-setup/).
+Check out my Mac setup guide for developers: [lucasrla.github.io/macos-setup/](https://lucasrla.github.io/macos-setup/).
