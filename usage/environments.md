@@ -94,10 +94,18 @@ If your project have dependencies that fit conda packages better than plain Pip 
 # 1. Create a virtualenv using the miniconda version installed with pyenv
 pyenv virtualenv miniconda3-4.7.12 my-conda-env
 
-# 2. Then use pyenv local to set a pyenv virtualenv locally
-cd CONDA_PROJECT_DIR && pyenv local my-conda-env
+# 2. Enter the directory your project resides in 
+cd CONDA_PROJECT_DIR
 
-# 3. Install whatever you want with conda
+# 3. Here's the trick! 
+#    Set miniconda as .python-version (to trigger $PATH dark magic) and then switch to the new env
+#
+#    If you are curious about what happened under the hood, check your PATH with: `echo $PATH`
+#    You should see the condabin directory (where conda lives) as the top directory there:
+#    /Users/<USER_NAME>/.pyenv/versions/miniconda3-4.7.12/condabin
+pyenv local miniconda3-4.7.12 && pyenv local my-conda-env
+
+# 4. Install whatever you want with conda
 conda install libvips
 
 # 4. If/when done with the env, delete it with pyenv virtualenv-delete
