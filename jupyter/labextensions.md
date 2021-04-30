@@ -13,9 +13,11 @@ nav_order: 2
 1. TOC
 {:toc}
 
----
+<hr />
 
 <div class="warning-box">We must have Node.js installed in order to install any JupyterLab Extension. If you haven't installed it yet, <a href="https://lucasrla.github.io/macos-setup/node-js/nvm.html">read the setup instructions here</a>.</div>
+
+# Installing extensions
 
 ## jupyterlab-manager
 
@@ -80,6 +82,27 @@ jupyter labextension list
           @aquirdturtle/collapsible_headings v2.2.0  enabled  OK
 ```
 
----
+# Managing extensions
+
+```sh
+# check out what is available
+jupyter labextension --help
+
+# list all configured labextensions
+jupyter labextension list
+
+# uninstall a labextension
+jupyter labextension uninstall @bokeh/jupyter_bokeh
+
+# rebuilding the UI (--debug is optional)
+jupyter lab build --debug
+```
+
+
+# Discover more extensions
+
+Check out [@mauhai/awesome-jupyterlab](https://github.com/mauhai/awesome-jupyterlab): A curated list of awesome JupyterLab extensions and resources.
+
+<hr />
 
 Continue reading: [JupyterLab Plugins](plugins.html).

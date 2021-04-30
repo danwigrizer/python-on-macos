@@ -85,6 +85,36 @@ Please note that we have used a special flag, `--include-deps`. Do not forget to
 If we miss it, we won't get all apps properly linked by `pipx`. See [#18](https://github.com/pipxproject/pipx/issues/18) and [#145](https://github.com/pipxproject/pipx/issues/143).
 
 
+## Run jupyterlab
+
+```sh
+jupyter lab
+# jupyter lab should be launched in a tab of your default browser
+```
+
+
+## Upgrade jupyterlab (and injected packages, too)
+
+```sh
+pipx upgrade jupyterlab --include-injected
+
+# then run it to check if it is working
+jupyter lab
+```
+
+You might need to update some of your extensions. For example:
+
+```sh
+[W 2021-04-30 15:59:17.715 LabApp] The extension "@jupyterlab/katex-extension" is outdated.
+```
+
+To update them, inside `jupyter lab`, navigate to the Extension Manager tab and select `Update` for each one of them. After the update, you might need to might need a rebuild as well.
+
+If there is an outdated warning, but no update available, the extension is probably deprecated and should be uninstalled. That was the case with [jupyterlab-toc](https://github.com/jupyterlab/jupyterlab-toc), which is now included by default (since JupyterLab 3.0).
+
+If the building fails, you will see the message: "Build failed with 500, please run 'jupyter lab build' on the server for full output". Shut down JupyterLab and run `jupyter lab build --debug` to find out what is going on.
+
+
 ## jupyter across the filesystem
 
 Where do `jupyter` files live?
