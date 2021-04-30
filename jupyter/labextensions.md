@@ -82,6 +82,7 @@ jupyter labextension list
           @aquirdturtle/collapsible_headings v2.2.0  enabled  OK
 ```
 
+
 # Managing extensions
 
 ```sh
