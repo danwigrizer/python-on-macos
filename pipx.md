@@ -138,7 +138,7 @@ pipx uninstall pycowsay
   uninstalled pycowsay! ✨ 🌟 ✨
 ```
 
-## Advantage usage
+## Advanced usage
 
 Here are a few more advanced operations:
 
